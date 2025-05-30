@@ -1,0 +1,9 @@
+- You need to replicate the design attached
+- Font to use 
+- Assets to use for replication are included in the public folder with the following names:
+    - Hero section container : heroContainer.jpeg
+    - Fabwell Logo : logo.png
+    - commercial and instituional container : uni.jpeg
+    - industrial container : industry.jpeg
+    - residential container : bighome.jpeg
+- Use ShadCN when applicable (not yet installed)
