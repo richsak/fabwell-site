@@ -159,7 +159,7 @@ export default function Home() {
               About Fabwell Industries
             </h2>
             <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Fabwell is a full-service metal fabrication company based in British Columbia, Canada. Since 2010, we've been delivering high-quality, custom steel solutions across commercial, industrial, and residential sectors. With over 15 years of hands-on experience, we bring technical expertise, project efficiency, and a deep commitment to client satisfaction.
+              Fabwell is a full-service metal fabrication company based in British Columbia, Canada. Since 2010, we&apos;ve been delivering high-quality, custom steel solutions across commercial, industrial, and residential sectors. With over 15 years of hands-on experience, we bring technical expertise, project efficiency, and a deep commitment to client satisfaction.
             </p>
           </div>
 
@@ -247,7 +247,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
             <div className="bg-gray-50 p-8 rounded-lg shadow-xl">
               <h3 className="text-2xl font-semibold text-gray-800 mb-2">Send Us a Message</h3>
-              <p className="text-gray-600 mb-6 text-sm">Tell us about your project and we'll get back to you as soon as possible.</p>
+              <p className="text-gray-600 mb-6 text-sm">Tell us about your project and we&apos;ll get back to you as soon as possible.</p>
               <form className="space-y-6"> {/* Removed onSubmit handler */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <div>
@@ -315,7 +315,7 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">Ready to Get Started?</h2>
           <p className="text-lg sm:text-xl mb-8 max-w-2xl mx-auto leading-relaxed">
-            Whether you're developing infrastructure, expanding a facility, or designing a custom home, our team works closely with you to deliver on time, on budget, and to spec—every time.
+            Whether you&apos;re developing infrastructure, expanding a facility, or designing a custom home, our team works closely with you to deliver on time, on budget, and to spec—every time.
           </p>
           <a href="mailto:info@fabwell.ca?subject=Project%20Inquiry">
             <Button variant="outline" size="lg" className="bg-white text-green-700 hover:bg-gray-100 border-white hover:border-gray-100 font-semibold px-10 py-3 text-base">

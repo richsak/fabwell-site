@@ -27,7 +27,7 @@ const CareersPage = () => {
             Join Our Team
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            Be part of a growing company that values precision, safety, and professional excellence. We're always looking for skilled professionals to join our certified team.
+            Be part of a growing company that values precision, safety, and professional excellence. We&apos;re always looking for skilled professionals to join our certified team.
           </p>
         </header>
 
@@ -50,10 +50,10 @@ const CareersPage = () => {
             Ready to Join Us?
           </h2>
           <p className="text-gray-600 max-w-xl mx-auto mb-6 leading-relaxed">
-            We're always looking for talented individuals to join our team. Whether you're an experienced welder, project manager, crane operator, or other skilled professional, we'd love to hear from you.
+            We&apos;re always looking for talented individuals to join our team. Whether you&apos;re an experienced welder, project manager, crane operator, or other skilled professional, we&apos;d love to hear from you.
           </p>
           <p className="text-gray-600 max-w-xl mx-auto mb-8 leading-relaxed">
-            Send us your resume and tell us about your experience. We'll be in touch if there's a good fit for current or future opportunities.
+            Send us your resume and tell us about your experience. We&apos;ll be in touch if there&apos;s a good fit for current or future opportunities.
           </p>
           <Button asChild size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-base">
             <Link href="mailto:info@fabwell.ca?subject=Career%20Opportunity"> {/* Opens mail client */}

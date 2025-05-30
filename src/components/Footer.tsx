@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowUpCircle, Instagram, Linkedin } from 'lucide-react'; // Added Linkedin
+import { ArrowUpCircle, Instagram } from 'lucide-react'; // Added Linkedin
 import { useState, useEffect } from 'react';
 
 const Footer = () => {

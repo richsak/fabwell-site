@@ -1,6 +1,5 @@
 "use client";
 
-import Image from 'next/image'; // Though we'll use an icon for now
 import Link from 'next/link';
 import { ArrowLeft, UserCircle2, Linkedin } from 'lucide-react'; // UserCircle2 as placeholder
 
@@ -60,7 +59,7 @@ const TeamPage = () => {
           </p>
         </div>
 
-        {teamData.map((section, sectionIndex) => (
+        {teamData.map((section) => (
           <section key={section.title} className="mb-12 lg:mb-16">
             <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-8 text-center"> {/* Adjusted text color and alignment */}
               {section.title}

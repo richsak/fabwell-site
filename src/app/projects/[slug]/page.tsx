@@ -155,7 +155,7 @@ export default function ProjectDetailsPage({ params }: ProjectDetailsPageProps) 
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl font-bold text-gray-800 mb-4">Project Not Found</h1>
           <p className="text-lg text-gray-600 mb-8">
-            Sorry, we couldn't find the project you were looking for.
+            Sorry, we couldn&apos;t find the project you were looking for.
           </p>
           <Link href="/projects" passHref>
             <Button variant="default" size="lg" className="bg-green-600 hover:bg-green-700 text-white">

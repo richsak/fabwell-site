@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { Mouse } from 'lucide-react'; // For scroll indicator
 
 const Hero = () => {
