@@ -142,12 +142,14 @@ export async function generateStaticParams() {
 }
 
 type Props = {
-  params: { slug: string };
-  searchParams?: { [key: string]: string | string[] | undefined };
+  params: Promise<{ slug: string }>;
+  searchParams?: Promise<{ [key: string]: string | string[] | undefined } | undefined>;
 };
 
-const ProjectDetailsPage: React.FC<Props> = ({ params }) => {
-  const project = allProjectsData.find(p => p.slug === params.slug);
+export default async function ProjectDetailsPage({ params }: Props) {
+  const { slug } = await params;
+  // const resolvedSearchParams = searchParams ? await searchParams : undefined; // Example if you need to use them
+  const project = allProjectsData.find(p => p.slug === slug);
 
   if (!project) {
     return (
@@ -284,6 +286,4 @@ const ProjectDetailsPage: React.FC<Props> = ({ params }) => {
       </section>
     </main>
   );
-};
-
-export default ProjectDetailsPage;
+}
